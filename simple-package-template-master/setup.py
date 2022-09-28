@@ -7,11 +7,11 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="analisador_imagem",
+    name="package_name",
     version="0.0.1",
-    author="Allan",
-    author_email="allanmellom@gmail.com",
-    description="This package allows the comparison between two images",
+    author="my_name",
+    author_email="my_email",
+    description="My short description",
     long_description=page_description,
     long_description_content_type="text/markdown",
     url="my_github_repository_project_link"
